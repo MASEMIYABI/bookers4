@@ -1,6 +1,5 @@
-class UsersController < ApplicationController
+class BooksController < ApplicationController
     def index
-        @user = current_user
     end
 
     def show
@@ -14,4 +13,5 @@ class UsersController < ApplicationController
 
     def update
     end
+
 end
